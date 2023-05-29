@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>屏幕标尺</title>
+    </head>
+
+    <link href="ruler.css" rel="stylesheet" type="text/css" />
+
+    <body scroll="no">
+        <canvas id="can" width="100%" height="100%"></canvas>
+        <div id="maindiv" draggable="false">
+            <div class="floatdiv">
+                <ul>
+                    <li><label>宽度:</label><a id="width">0</a></li>
+                    <li><label>高度:</label><a id="height">0</a></li>
+                </ul>
+            </div>
+            <div class="floatdiv">
+                <ul>
+                    <li>
+                        <label for="mod_x">X</label>
+                        <input type="checkbox" checked="true" id="mod_x" />
+                    </li>
+                    <li>
+                        <label for="mod_y">Y</label>
+                        <input type="checkbox" checked="true" id="mod_y" />
+                    </li>
+                </ul>
+            </div>
+            <div class="floatdiv">
+                <ul>
+                    <li>
+                        <label for="fix">容差:</label>
+                        <input type="number" id="fix" value="0" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+    <script src="ruler.js"></script>
+
+    <script type="text/javascript"></script>
+</html>

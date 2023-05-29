@@ -1,0 +1,16 @@
+{
+	"pluginName": "屏幕标尺",
+	"description": "复刻PowerToys 屏幕标尺 功能",
+	"author": "BC",
+	"homepage": "https://github.com/BrokenClient",
+	"preload": "preload.js",
+	"version": "1.0.0",
+	"logo": "logo.jpg",
+	"features": [
+		{
+			"code": "main",
+			"explain": "屏幕标尺",
+			"cmds":["ruler","标尺"]
+		}
+	]
+}
